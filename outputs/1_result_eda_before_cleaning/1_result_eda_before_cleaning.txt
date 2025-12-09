@@ -1,13 +1,14 @@
 
 EXPLORATORY DATA ANALYSIS REPORT
 ================================================================================
-Generated: 2025-12-05 11:18:07
+
+Generated: 2025-12-09 13:22:26
 
 1. DATASET OVERVIEW
 --------------------------------------------------------------------------------
-   - Total Rows: 50,010
-   - Total Columns: 27
-   - Memory Usage: 35.27 MB
+- Total Rows: 50,010
+- Total Columns: 27
+- Memory Usage: 39.08 MB
 
 2. DATA TYPES
 --------------------------------------------------------------------------------
@@ -17,16 +18,16 @@ int64       2
 
 3. MISSING VALUES
 --------------------------------------------------------------------------------
-   - Total Missing: 0
-   - Percentage: 0.00%
+Total Missing: 0
+Percentage: 0.00%
 
 Columns with Missing Values:
-   None
+None
 
 4. DUPLICATE ROWS
 --------------------------------------------------------------------------------
-   - Total Duplicates: 10
-   - Percentage: 0.02%
+- Total Duplicates: 10
+- Percentage: 0.02%
 
 5. OUTLIER ANALYSIS
 --------------------------------------------------------------------------------
@@ -49,7 +50,7 @@ Columns with Missing Values:
 15              SolarIrradiance           1477         2.953409    90.740000  1865.556000     0.000000    90.706000
 16                    WindSpeed            515         1.029794     0.659000     4.563000     0.000000     0.659000
 
-6. NUMERIC COLUMNS SUMMARY
+6. NUMERIC SUMMARY
 --------------------------------------------------------------------------------
         Voltage (V)   Current (A)  Power Consumption (kW)  Reactive Power (kVAR)  Power Factor  Solar Power (kW)  Wind Power (kW)  Grid Supply (kW)  Voltage Fluctuation (%)  Overload Condition  Transformer Fault  Temperature (°C)  Humidity (%)  Electricity Price (EUR/kWh)  Predicted Load (kW)  SolarIrradiance     WindSpeed
 count  50010.000000  50010.000000            50010.000000           50010.000000  50010.000000      50010.000000     50010.000000      50010.000000             50010.000000        50010.000000       50010.000000      50010.000000  50010.000000                 50010.000000         50010.000000     50010.000000  50010.000000
@@ -73,26 +74,5 @@ SensorType: 3 unique values
 Manufacturer: 4 unique values
 InstallationDate: 5 unique values
 DecommissionStatus: 7 unique values
-
-8. RECOMMENDATIONS
---------------------------------------------------------------------------------
-   Based on this analysis, consider:
-
-   a) Missing Values:
-      - Review patterns in missing data
-      - Decide on imputation strategy
-
-   b) Outliers:
-      - 9,727 total outliers detected
-      - Review if they are valid data points
-
-   c) Data Quality:
-      - 10 duplicate rows found
-      - Check for data entry errors
-
-   d) Next Steps:
-      - Make informed cleaning decisions
-      - Document all transformations
-      - Validate cleaned data
 
 ================================================================================
